@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet - No entry point
- * Return: Always 0 (success!)
+ * Return: Nothing (success!)
  */
 
 void print_alphabet(void)
@@ -10,8 +10,7 @@ void print_alphabet(void)
 
 	for (al = 'a'; al <= 'z'; al++)
 	{
-		putchar(al);
+		_putchar(al);
 	}
 	_putchar('\n');
-	return (0);
 }
