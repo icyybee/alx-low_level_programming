@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include "main.h"
+#include "stdio.h"
 /**
  * main - prints _putchar, followed by a new line
  * Return: Always 0 (success!)
@@ -7,12 +6,13 @@
 
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
+	int i = 0;
+	char str_put[8] = "_putchar";
 
-	for (i = 0; i < 8; i++)
+	while (i < 8)
 	{
-		_putchar();
+		putchar(str_put[i]);
+		i += 1;
 	}
 	_putchar('\n');
 	return (0);
