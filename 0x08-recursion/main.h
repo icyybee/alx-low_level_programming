@@ -7,3 +7,4 @@ int _strlen_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _putchar(char c);
 int natural_sqrt_recursion(int n, int i);
+int _is_prime(int n, int i);
